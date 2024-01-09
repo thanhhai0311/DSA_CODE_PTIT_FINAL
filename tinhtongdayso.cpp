@@ -8,10 +8,12 @@ int main()
     cin >> n;
     for(int i=0; i<n; i++)
     {
-            int a;
-            cin >> a;
-            if(a%100==86) cout << "1" << endl;
-            else cout << "0" << endl;
+            long long N;
+            cin >> N;
+            long long tong=(N+1)*N/2;
+            cout << tong << endl;
     }
     return 0;
 }
+
+                    
