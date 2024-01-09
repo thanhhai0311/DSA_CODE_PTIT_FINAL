@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 int main()
 {
@@ -11,7 +10,6 @@ int main()
             xau[i]-=32;
     }
     printf("%s", xau);
-    getch();
     return 0;
 }    
     
